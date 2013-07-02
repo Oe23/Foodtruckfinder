@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180C96DD16E577F400F9DE3D /* flipSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 180C96DC16E577F400F9DE3D /* flipSegue.m */; };
+		18231772170CA46A00139E9A /* foodTruckTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18231771170CA46A00139E9A /* foodTruckTableCell.m */; };
+		18231776170CC95600139E9A /* foodTruckHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18231775170CC95600139E9A /* foodTruckHeaderView.m */; };
+		182A523616E3FBB500F4434B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182A523516E3FBB500F4434B /* UIKit.framework */; };
+		182A523816E3FBB500F4434B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182A523716E3FBB500F4434B /* Foundation.framework */; };
+		182A523A16E3FBB500F4434B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182A523916E3FBB500F4434B /* CoreGraphics.framework */; };
+		182A523C16E3FBB500F4434B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182A523B16E3FBB500F4434B /* CoreData.framework */; };
+		182A524216E3FBB500F4434B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 182A524016E3FBB500F4434B /* InfoPlist.strings */; };
+		182A524416E3FBB500F4434B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A524316E3FBB500F4434B /* main.m */; };
+		182A524816E3FBB500F4434B /* foodTruckFinderzAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A524716E3FBB500F4434B /* foodTruckFinderzAppDelegate.m */; };
+		182A524A16E3FBB600F4434B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 182A524916E3FBB600F4434B /* Default.png */; };
+		182A524C16E3FBB600F4434B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182A524B16E3FBB600F4434B /* Default@2x.png */; };
+		182A524E16E3FBB600F4434B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 182A524D16E3FBB600F4434B /* Default-568h@2x.png */; };
+		182A525116E3FBB600F4434B /* foodTruckFinderz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 182A524F16E3FBB600F4434B /* foodTruckFinderz.xcdatamodeld */; };
+		182A525816E3FBF900F4434B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182A525716E3FBF900F4434B /* Storyboard.storyboard */; };
+		182A525B16E415BF00F4434B /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A525A16E415BF00F4434B /* NavigationController.m */; };
+		182A525E16E415F300F4434B /* FoodTruckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A525D16E415F300F4434B /* FoodTruckViewController.m */; };
+		182A526116E4161A00F4434B /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A526016E4161900F4434B /* MapViewController.m */; };
+		182A526416E4162F00F4434B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A526316E4162F00F4434B /* DetailViewController.m */; };
+		182A526716E4165B00F4434B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A526616E4165B00F4434B /* TableViewController.m */; };
+		182A526D16E427B800F4434B /* FoodTruck.m in Sources */ = {isa = PBXBuildFile; fileRef = 182A526C16E427B800F4434B /* FoodTruck.m */; };
+		182A526F16E43EC900F4434B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182A526E16E43EC800F4434B /* CoreLocation.framework */; };
+		182A527116E43ED000F4434B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 182A527016E43ED000F4434B /* MapKit.framework */; };
+		182A527516E4634900F4434B /* Ham.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 182A527416E4634900F4434B /* Ham.jpeg */; };
+		183AE290171158E70002379E /* foodtruckannotation.png in Resources */ = {isa = PBXBuildFile; fileRef = 183AE28F171158E60002379E /* foodtruckannotation.png */; };
+		183AE292171169C40002379E /* foodtruck1.png in Resources */ = {isa = PBXBuildFile; fileRef = 183AE291171169C40002379E /* foodtruck1.png */; };
+		186D5EE416E9AABA00C4E0AD /* ftfCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 186D5EE316E9AABA00C4E0AD /* ftfCollectionViewCell.m */; };
+		186D5EE916E9B0CF00C4E0AD /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 186D5EE516E9B0CE00C4E0AD /* heart.png */; };
+		186D5EEA16E9B0CF00C4E0AD /* heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186D5EE616E9B0CE00C4E0AD /* heart@2x.png */; };
+		186D5EEB16E9B0CF00C4E0AD /* unselected_heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 186D5EE716E9B0CF00C4E0AD /* unselected_heart.png */; };
+		186D5EEC16E9B0CF00C4E0AD /* unselected_heart@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186D5EE816E9B0CF00C4E0AD /* unselected_heart@2x.png */; };
+		186DE47B16F046A4009E1EC9 /* JSONNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 186DE47A16F046A4009E1EC9 /* JSONNetworking.m */; };
+		186DE47D16F0E2A9009E1EC9 /* json.txt in Resources */ = {isa = PBXBuildFile; fileRef = 186DE47C16F0E2A9009E1EC9 /* json.txt */; };
+		186DE48016F10661009E1EC9 /* truck.png in Resources */ = {isa = PBXBuildFile; fileRef = 186DE47E16F10661009E1EC9 /* truck.png */; };
+		186DE48116F10661009E1EC9 /* truck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 186DE47F16F10661009E1EC9 /* truck@2x.png */; };
+		187C2B4516E68FE300AC9444 /* flipSegueBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 187C2B4416E68FE300AC9444 /* flipSegueBack.m */; };
+		1886E752170D641E0035E970 /* foodtruckdrag.png in Resources */ = {isa = PBXBuildFile; fileRef = 1886E751170D641E0035E970 /* foodtruckdrag.png */; };
+		188DADC91715B72100E5E1C2 /* DistProTh.otf in Resources */ = {isa = PBXBuildFile; fileRef = 189AF23A1714A0410042A9BE /* DistProTh.otf */; };
+		18AE6B3316E7E65900E0FE0B /* FoodTrucksCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AE6B3216E7E65900E0FE0B /* FoodTrucksCollectionView.m */; };
+		18AF777E170DD4B200F45E5E /* foodtruck3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18AF777D170DD4B200F45E5E /* foodtruck3.jpeg */; };
+		18D3A9DF17147BC100B50F38 /* Foodtruckfinderz.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D3A9DE17147BC100B50F38 /* Foodtruckfinderz.png */; };
+		18D3A9E117147CAF00B50F38 /* Foodtruckfinderz@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D3A9E017147CAF00B50F38 /* Foodtruckfinderz@2x.png */; };
+		18D3A9E317147CC600B50F38 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D3A9E217147CC600B50F38 /* Default@2x.png */; };
+		18D3A9E51714845F00B50F38 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D3A9E41714845F00B50F38 /* Default.png */; };
+		18D3A9E7171484DF00B50F38 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D3A9E6171484DF00B50F38 /* Default-568h@2x.png */; };
+		18D8549416F7C0B900D7E6D0 /* foodtruck1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18D8548916F7C0B900D7E6D0 /* foodtruck1.jpeg */; };
+		18D8549516F7C0B900D7E6D0 /* foodtruck2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18D8548A16F7C0B900D7E6D0 /* foodtruck2.jpeg */; };
+		18D8549716F7C0B900D7E6D0 /* foodtruck4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18D8548C16F7C0B900D7E6D0 /* foodtruck4.jpeg */; };
+		18D8549816F7C0B900D7E6D0 /* foodtruck5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18D8548D16F7C0B900D7E6D0 /* foodtruck5.jpeg */; };
+		18D8549916F7C0B900D7E6D0 /* foodtruck6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18D8548E16F7C0B900D7E6D0 /* foodtruck6.jpeg */; };
+		18D8549A16F7C0B900D7E6D0 /* foodtruck7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18D8548F16F7C0B900D7E6D0 /* foodtruck7.jpeg */; };
+		18D8549B16F7C0B900D7E6D0 /* foodtruck8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18D8549016F7C0B900D7E6D0 /* foodtruck8.jpeg */; };
+		18D8549C16F7C0B900D7E6D0 /* foodtruck9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18D8549116F7C0B900D7E6D0 /* foodtruck9.jpeg */; };
+		18D8549D16F7C0B900D7E6D0 /* foodtruck10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18D8549216F7C0B900D7E6D0 /* foodtruck10.jpeg */; };
+		18D8549E16F7C0B900D7E6D0 /* foodtruck11.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18D8549316F7C0B900D7E6D0 /* foodtruck11.jpeg */; };
+		18D854A016F7C29600D7E6D0 /* chalkboardbackground.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 18D8549F16F7C29600D7E6D0 /* chalkboardbackground.jpeg */; };
+		18D854A316F8D76A00D7E6D0 /* FlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D854A216F8D76A00D7E6D0 /* FlowLayout.m */; };
+		18D854A816F9035800D7E6D0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D854A716F9035800D7E6D0 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180C96DB16E577F400F9DE3D /* flipSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flipSegue.h; sourceTree = "<group>"; };
+		180C96DC16E577F400F9DE3D /* flipSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flipSegue.m; sourceTree = "<group>"; };
+		18231770170CA46A00139E9A /* foodTruckTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = foodTruckTableCell.h; sourceTree = "<group>"; };
+		18231771170CA46A00139E9A /* foodTruckTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = foodTruckTableCell.m; sourceTree = "<group>"; };
+		18231774170CC95600139E9A /* foodTruckHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = foodTruckHeaderView.h; sourceTree = "<group>"; };
+		18231775170CC95600139E9A /* foodTruckHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = foodTruckHeaderView.m; sourceTree = "<group>"; };
+		182A523216E3FBB500F4434B /* foodTruckFinderz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = foodTruckFinderz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		182A523516E3FBB500F4434B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		182A523716E3FBB500F4434B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		182A523916E3FBB500F4434B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		182A523B16E3FBB500F4434B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		182A523F16E3FBB500F4434B /* foodTruckFinderz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "foodTruckFinderz-Info.plist"; sourceTree = "<group>"; };
+		182A524116E3FBB500F4434B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		182A524316E3FBB500F4434B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		182A524516E3FBB500F4434B /* foodTruckFinderz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "foodTruckFinderz-Prefix.pch"; sourceTree = "<group>"; };
+		182A524616E3FBB500F4434B /* foodTruckFinderzAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = foodTruckFinderzAppDelegate.h; sourceTree = "<group>"; };
+		182A524716E3FBB500F4434B /* foodTruckFinderzAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = foodTruckFinderzAppDelegate.m; sourceTree = "<group>"; };
+		182A524916E3FBB600F4434B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		182A524B16E3FBB600F4434B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		182A524D16E3FBB600F4434B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		182A525016E3FBB600F4434B /* foodTruckFinderz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = foodTruckFinderz.xcdatamodel; sourceTree = "<group>"; };
+		182A525716E3FBF900F4434B /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		182A525916E415BF00F4434B /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		182A525A16E415BF00F4434B /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		182A525C16E415F300F4434B /* FoodTruckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTruckViewController.h; sourceTree = "<group>"; };
+		182A525D16E415F300F4434B /* FoodTruckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTruckViewController.m; sourceTree = "<group>"; };
+		182A525F16E4161900F4434B /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		182A526016E4161900F4434B /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		182A526216E4162F00F4434B /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		182A526316E4162F00F4434B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		182A526516E4165B00F4434B /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		182A526616E4165B00F4434B /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		182A526B16E427B800F4434B /* FoodTruck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTruck.h; sourceTree = "<group>"; };
+		182A526C16E427B800F4434B /* FoodTruck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTruck.m; sourceTree = "<group>"; };
+		182A526E16E43EC800F4434B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		182A527016E43ED000F4434B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		182A527416E4634900F4434B /* Ham.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ham.jpeg; sourceTree = "<group>"; };
+		183AE28F171158E60002379E /* foodtruckannotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foodtruckannotation.png; sourceTree = "<group>"; };
+		183AE291171169C40002379E /* foodtruck1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foodtruck1.png; sourceTree = "<group>"; };
+		186D5EE216E9AABA00C4E0AD /* ftfCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftfCollectionViewCell.h; sourceTree = "<group>"; };
+		186D5EE316E9AABA00C4E0AD /* ftfCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ftfCollectionViewCell.m; sourceTree = "<group>"; };
+		186D5EE516E9B0CE00C4E0AD /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		186D5EE616E9B0CE00C4E0AD /* heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "heart@2x.png"; sourceTree = "<group>"; };
+		186D5EE716E9B0CF00C4E0AD /* unselected_heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unselected_heart.png; sourceTree = "<group>"; };
+		186D5EE816E9B0CF00C4E0AD /* unselected_heart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unselected_heart@2x.png"; sourceTree = "<group>"; };
+		186DE47916F046A4009E1EC9 /* JSONNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONNetworking.h; sourceTree = "<group>"; };
+		186DE47A16F046A4009E1EC9 /* JSONNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONNetworking.m; sourceTree = "<group>"; };
+		186DE47C16F0E2A9009E1EC9 /* json.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json.txt; sourceTree = "<group>"; };
+		186DE47E16F10661009E1EC9 /* truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = truck.png; sourceTree = "<group>"; };
+		186DE47F16F10661009E1EC9 /* truck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "truck@2x.png"; sourceTree = "<group>"; };
+		187C2B4316E68FE300AC9444 /* flipSegueBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flipSegueBack.h; sourceTree = "<group>"; };
+		187C2B4416E68FE300AC9444 /* flipSegueBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = flipSegueBack.m; sourceTree = "<group>"; };
+		1886E751170D641E0035E970 /* foodtruckdrag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = foodtruckdrag.png; sourceTree = "<group>"; };
+		189AF23A1714A0410042A9BE /* DistProTh.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DistProTh.otf; sourceTree = "<group>"; };
+		18AE6B3116E7E65900E0FE0B /* FoodTrucksCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTrucksCollectionView.h; sourceTree = "<group>"; };
+		18AE6B3216E7E65900E0FE0B /* FoodTrucksCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTrucksCollectionView.m; sourceTree = "<group>"; };
+		18AF777D170DD4B200F45E5E /* foodtruck3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodtruck3.jpeg; sourceTree = "<group>"; };
+		18D3A9DE17147BC100B50F38 /* Foodtruckfinderz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Foodtruckfinderz.png; sourceTree = "<group>"; };
+		18D3A9E017147CAF00B50F38 /* Foodtruckfinderz@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Foodtruckfinderz@2x.png"; sourceTree = "<group>"; };
+		18D3A9E217147CC600B50F38 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		18D3A9E41714845F00B50F38 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		18D3A9E6171484DF00B50F38 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		18D8548916F7C0B900D7E6D0 /* foodtruck1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodtruck1.jpeg; sourceTree = "<group>"; };
+		18D8548A16F7C0B900D7E6D0 /* foodtruck2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodtruck2.jpeg; sourceTree = "<group>"; };
+		18D8548C16F7C0B900D7E6D0 /* foodtruck4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodtruck4.jpeg; sourceTree = "<group>"; };
+		18D8548D16F7C0B900D7E6D0 /* foodtruck5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodtruck5.jpeg; sourceTree = "<group>"; };
+		18D8548E16F7C0B900D7E6D0 /* foodtruck6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodtruck6.jpeg; sourceTree = "<group>"; };
+		18D8548F16F7C0B900D7E6D0 /* foodtruck7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodtruck7.jpeg; sourceTree = "<group>"; };
+		18D8549016F7C0B900D7E6D0 /* foodtruck8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodtruck8.jpeg; sourceTree = "<group>"; };
+		18D8549116F7C0B900D7E6D0 /* foodtruck9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodtruck9.jpeg; sourceTree = "<group>"; };
+		18D8549216F7C0B900D7E6D0 /* foodtruck10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodtruck10.jpeg; sourceTree = "<group>"; };
+		18D8549316F7C0B900D7E6D0 /* foodtruck11.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = foodtruck11.jpeg; sourceTree = "<group>"; };
+		18D8549F16F7C29600D7E6D0 /* chalkboardbackground.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chalkboardbackground.jpeg; sourceTree = "<group>"; };
+		18D854A116F8D76A00D7E6D0 /* FlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlowLayout.h; sourceTree = "<group>"; };
+		18D854A216F8D76A00D7E6D0 /* FlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlowLayout.m; sourceTree = "<group>"; };
+		18D854A716F9035800D7E6D0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182A522F16E3FBB500F4434B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D854A816F9035800D7E6D0 /* QuartzCore.framework in Frameworks */,
+				182A527116E43ED000F4434B /* MapKit.framework in Frameworks */,
+				182A526F16E43EC900F4434B /* CoreLocation.framework in Frameworks */,
+				182A523616E3FBB500F4434B /* UIKit.framework in Frameworks */,
+				182A523816E3FBB500F4434B /* Foundation.framework in Frameworks */,
+				182A523A16E3FBB500F4434B /* CoreGraphics.framework in Frameworks */,
+				182A523C16E3FBB500F4434B /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1823176C170C959D00139E9A /* view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				182A525916E415BF00F4434B /* NavigationController.h */,
+				182A525A16E415BF00F4434B /* NavigationController.m */,
+				182A525C16E415F300F4434B /* FoodTruckViewController.h */,
+				182A525D16E415F300F4434B /* FoodTruckViewController.m */,
+				182A525F16E4161900F4434B /* MapViewController.h */,
+				182A526016E4161900F4434B /* MapViewController.m */,
+				182A526516E4165B00F4434B /* TableViewController.h */,
+				182A526616E4165B00F4434B /* TableViewController.m */,
+				182A526216E4162F00F4434B /* DetailViewController.h */,
+				182A526316E4162F00F4434B /* DetailViewController.m */,
+			);
+			name = "view controllers";
+			sourceTree = "<group>";
+		};
+		1823176D170C95BA00139E9A /* segues */ = {
+			isa = PBXGroup;
+			children = (
+				180C96DB16E577F400F9DE3D /* flipSegue.h */,
+				180C96DC16E577F400F9DE3D /* flipSegue.m */,
+				187C2B4316E68FE300AC9444 /* flipSegueBack.h */,
+				187C2B4416E68FE300AC9444 /* flipSegueBack.m */,
+			);
+			name = segues;
+			sourceTree = "<group>";
+		};
+		1823176E170C95D100139E9A /* networking */ = {
+			isa = PBXGroup;
+			children = (
+				186DE47C16F0E2A9009E1EC9 /* json.txt */,
+				186DE47916F046A4009E1EC9 /* JSONNetworking.h */,
+				186DE47A16F046A4009E1EC9 /* JSONNetworking.m */,
+			);
+			name = networking;
+			sourceTree = "<group>";
+		};
+		1823176F170CA3EB00139E9A /* collectionView */ = {
+			isa = PBXGroup;
+			children = (
+				18231774170CC95600139E9A /* foodTruckHeaderView.h */,
+				18231775170CC95600139E9A /* foodTruckHeaderView.m */,
+				18AE6B3216E7E65900E0FE0B /* FoodTrucksCollectionView.m */,
+				18AE6B3116E7E65900E0FE0B /* FoodTrucksCollectionView.h */,
+				18D854A116F8D76A00D7E6D0 /* FlowLayout.h */,
+				186D5EE216E9AABA00C4E0AD /* ftfCollectionViewCell.h */,
+				186D5EE316E9AABA00C4E0AD /* ftfCollectionViewCell.m */,
+				18D854A216F8D76A00D7E6D0 /* FlowLayout.m */,
+				1823176E170C95D100139E9A /* networking */,
+			);
+			name = collectionView;
+			sourceTree = "<group>";
+		};
+		18231773170CA47500139E9A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				18231770170CA46A00139E9A /* foodTruckTableCell.h */,
+				18231771170CA46A00139E9A /* foodTruckTableCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		182A522916E3FBB500F4434B = {
+			isa = PBXGroup;
+			children = (
+				189AF23A1714A0410042A9BE /* DistProTh.otf */,
+				18D3A9E6171484DF00B50F38 /* Default-568h@2x.png */,
+				18D3A9E41714845F00B50F38 /* Default.png */,
+				18D3A9E217147CC600B50F38 /* Default@2x.png */,
+				18D3A9E017147CAF00B50F38 /* Foodtruckfinderz@2x.png */,
+				18D3A9DE17147BC100B50F38 /* Foodtruckfinderz.png */,
+				186DE47E16F10661009E1EC9 /* truck.png */,
+				183AE28F171158E60002379E /* foodtruckannotation.png */,
+				183AE291171169C40002379E /* foodtruck1.png */,
+				1886E751170D641E0035E970 /* foodtruckdrag.png */,
+				186DE47F16F10661009E1EC9 /* truck@2x.png */,
+				18231773170CA47500139E9A /* Cells */,
+				186D5EED16E9B0D900C4E0AD /* icons */,
+				18D8548816F7C06100D7E6D0 /* images */,
+				1823176F170CA3EB00139E9A /* collectionView */,
+				182A525716E3FBF900F4434B /* Storyboard.storyboard */,
+				1823176D170C95BA00139E9A /* segues */,
+				1823176C170C959D00139E9A /* view controllers */,
+				182A523D16E3FBB500F4434B /* foodTruckFinderz */,
+				182A523416E3FBB500F4434B /* Frameworks */,
+				182A523316E3FBB500F4434B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		182A523316E3FBB500F4434B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182A523216E3FBB500F4434B /* foodTruckFinderz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182A523416E3FBB500F4434B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18D854A716F9035800D7E6D0 /* QuartzCore.framework */,
+				182A527016E43ED000F4434B /* MapKit.framework */,
+				182A526E16E43EC800F4434B /* CoreLocation.framework */,
+				182A523516E3FBB500F4434B /* UIKit.framework */,
+				182A523716E3FBB500F4434B /* Foundation.framework */,
+				182A523916E3FBB500F4434B /* CoreGraphics.framework */,
+				182A523B16E3FBB500F4434B /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		182A523D16E3FBB500F4434B /* foodTruckFinderz */ = {
+			isa = PBXGroup;
+			children = (
+				182A524616E3FBB500F4434B /* foodTruckFinderzAppDelegate.h */,
+				182A524716E3FBB500F4434B /* foodTruckFinderzAppDelegate.m */,
+				182A524F16E3FBB600F4434B /* foodTruckFinderz.xcdatamodeld */,
+				182A526B16E427B800F4434B /* FoodTruck.h */,
+				182A526C16E427B800F4434B /* FoodTruck.m */,
+				182A523E16E3FBB500F4434B /* Supporting Files */,
+			);
+			path = foodTruckFinderz;
+			sourceTree = "<group>";
+		};
+		182A523E16E3FBB500F4434B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				182A523F16E3FBB500F4434B /* foodTruckFinderz-Info.plist */,
+				182A524016E3FBB500F4434B /* InfoPlist.strings */,
+				182A524316E3FBB500F4434B /* main.m */,
+				182A524516E3FBB500F4434B /* foodTruckFinderz-Prefix.pch */,
+				182A524916E3FBB600F4434B /* Default.png */,
+				182A524B16E3FBB600F4434B /* Default@2x.png */,
+				182A524D16E3FBB600F4434B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		186D5EED16E9B0D900C4E0AD /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				186D5EE516E9B0CE00C4E0AD /* heart.png */,
+				182A527416E4634900F4434B /* Ham.jpeg */,
+				186D5EE616E9B0CE00C4E0AD /* heart@2x.png */,
+				186D5EE716E9B0CF00C4E0AD /* unselected_heart.png */,
+				186D5EE816E9B0CF00C4E0AD /* unselected_heart@2x.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		18D8548816F7C06100D7E6D0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				18D8549F16F7C29600D7E6D0 /* chalkboardbackground.jpeg */,
+				18D8548916F7C0B900D7E6D0 /* foodtruck1.jpeg */,
+				18D8548A16F7C0B900D7E6D0 /* foodtruck2.jpeg */,
+				18AF777D170DD4B200F45E5E /* foodtruck3.jpeg */,
+				18D8548C16F7C0B900D7E6D0 /* foodtruck4.jpeg */,
+				18D8548D16F7C0B900D7E6D0 /* foodtruck5.jpeg */,
+				18D8548E16F7C0B900D7E6D0 /* foodtruck6.jpeg */,
+				18D8548F16F7C0B900D7E6D0 /* foodtruck7.jpeg */,
+				18D8549016F7C0B900D7E6D0 /* foodtruck8.jpeg */,
+				18D8549116F7C0B900D7E6D0 /* foodtruck9.jpeg */,
+				18D8549216F7C0B900D7E6D0 /* foodtruck10.jpeg */,
+				18D8549316F7C0B900D7E6D0 /* foodtruck11.jpeg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182A523116E3FBB500F4434B /* foodTruckFinderz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182A525416E3FBB600F4434B /* Build configuration list for PBXNativeTarget "foodTruckFinderz" */;
+			buildPhases = (
+				182A522E16E3FBB500F4434B /* Sources */,
+				182A522F16E3FBB500F4434B /* Frameworks */,
+				182A523016E3FBB500F4434B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = foodTruckFinderz;
+			productName = foodTruckFinderz;
+			productReference = 182A523216E3FBB500F4434B /* foodTruckFinderz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182A522A16E3FBB500F4434B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = foodTruckFinderz;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Oscar Edmond";
+			};
+			buildConfigurationList = 182A522D16E3FBB500F4434B /* Build configuration list for PBXProject "foodTruckFinderz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 182A522916E3FBB500F4434B;
+			productRefGroup = 182A523316E3FBB500F4434B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182A523116E3FBB500F4434B /* foodTruckFinderz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182A523016E3FBB500F4434B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182A524216E3FBB500F4434B /* InfoPlist.strings in Resources */,
+				182A524A16E3FBB600F4434B /* Default.png in Resources */,
+				182A524C16E3FBB600F4434B /* Default@2x.png in Resources */,
+				182A524E16E3FBB600F4434B /* Default-568h@2x.png in Resources */,
+				182A525816E3FBF900F4434B /* Storyboard.storyboard in Resources */,
+				182A527516E4634900F4434B /* Ham.jpeg in Resources */,
+				186D5EE916E9B0CF00C4E0AD /* heart.png in Resources */,
+				186D5EEA16E9B0CF00C4E0AD /* heart@2x.png in Resources */,
+				186D5EEB16E9B0CF00C4E0AD /* unselected_heart.png in Resources */,
+				186D5EEC16E9B0CF00C4E0AD /* unselected_heart@2x.png in Resources */,
+				186DE47D16F0E2A9009E1EC9 /* json.txt in Resources */,
+				186DE48016F10661009E1EC9 /* truck.png in Resources */,
+				186DE48116F10661009E1EC9 /* truck@2x.png in Resources */,
+				18D8549416F7C0B900D7E6D0 /* foodtruck1.jpeg in Resources */,
+				18D8549516F7C0B900D7E6D0 /* foodtruck2.jpeg in Resources */,
+				18D8549716F7C0B900D7E6D0 /* foodtruck4.jpeg in Resources */,
+				18D8549816F7C0B900D7E6D0 /* foodtruck5.jpeg in Resources */,
+				18D8549916F7C0B900D7E6D0 /* foodtruck6.jpeg in Resources */,
+				18D8549A16F7C0B900D7E6D0 /* foodtruck7.jpeg in Resources */,
+				18D8549B16F7C0B900D7E6D0 /* foodtruck8.jpeg in Resources */,
+				18D8549C16F7C0B900D7E6D0 /* foodtruck9.jpeg in Resources */,
+				18D8549D16F7C0B900D7E6D0 /* foodtruck10.jpeg in Resources */,
+				18D8549E16F7C0B900D7E6D0 /* foodtruck11.jpeg in Resources */,
+				18D854A016F7C29600D7E6D0 /* chalkboardbackground.jpeg in Resources */,
+				1886E752170D641E0035E970 /* foodtruckdrag.png in Resources */,
+				18AF777E170DD4B200F45E5E /* foodtruck3.jpeg in Resources */,
+				183AE290171158E70002379E /* foodtruckannotation.png in Resources */,
+				183AE292171169C40002379E /* foodtruck1.png in Resources */,
+				18D3A9DF17147BC100B50F38 /* Foodtruckfinderz.png in Resources */,
+				18D3A9E117147CAF00B50F38 /* Foodtruckfinderz@2x.png in Resources */,
+				18D3A9E317147CC600B50F38 /* Default@2x.png in Resources */,
+				18D3A9E51714845F00B50F38 /* Default.png in Resources */,
+				18D3A9E7171484DF00B50F38 /* Default-568h@2x.png in Resources */,
+				188DADC91715B72100E5E1C2 /* DistProTh.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182A522E16E3FBB500F4434B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182A524416E3FBB500F4434B /* main.m in Sources */,
+				182A524816E3FBB500F4434B /* foodTruckFinderzAppDelegate.m in Sources */,
+				182A525116E3FBB600F4434B /* foodTruckFinderz.xcdatamodeld in Sources */,
+				182A525B16E415BF00F4434B /* NavigationController.m in Sources */,
+				182A525E16E415F300F4434B /* FoodTruckViewController.m in Sources */,
+				182A526116E4161A00F4434B /* MapViewController.m in Sources */,
+				182A526416E4162F00F4434B /* DetailViewController.m in Sources */,
+				182A526716E4165B00F4434B /* TableViewController.m in Sources */,
+				182A526D16E427B800F4434B /* FoodTruck.m in Sources */,
+				180C96DD16E577F400F9DE3D /* flipSegue.m in Sources */,
+				187C2B4516E68FE300AC9444 /* flipSegueBack.m in Sources */,
+				18AE6B3316E7E65900E0FE0B /* FoodTrucksCollectionView.m in Sources */,
+				186D5EE416E9AABA00C4E0AD /* ftfCollectionViewCell.m in Sources */,
+				186DE47B16F046A4009E1EC9 /* JSONNetworking.m in Sources */,
+				18D854A316F8D76A00D7E6D0 /* FlowLayout.m in Sources */,
+				18231772170CA46A00139E9A /* foodTruckTableCell.m in Sources */,
+				18231776170CC95600139E9A /* foodTruckHeaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		182A524016E3FBB500F4434B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182A524116E3FBB500F4434B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182A525216E3FBB600F4434B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		182A525316E3FBB600F4434B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182A525516E3FBB600F4434B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "foodTruckFinderz/foodTruckFinderz-Prefix.pch";
+				INFOPLIST_FILE = "foodTruckFinderz/foodTruckFinderz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		182A525616E3FBB600F4434B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "foodTruckFinderz/foodTruckFinderz-Prefix.pch";
+				INFOPLIST_FILE = "foodTruckFinderz/foodTruckFinderz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182A522D16E3FBB500F4434B /* Build configuration list for PBXProject "foodTruckFinderz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182A525216E3FBB600F4434B /* Debug */,
+				182A525316E3FBB600F4434B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182A525416E3FBB600F4434B /* Build configuration list for PBXNativeTarget "foodTruckFinderz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182A525516E3FBB600F4434B /* Debug */,
+				182A525616E3FBB600F4434B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		182A524F16E3FBB600F4434B /* foodTruckFinderz.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				182A525016E3FBB600F4434B /* foodTruckFinderz.xcdatamodel */,
+			);
+			currentVersion = 182A525016E3FBB600F4434B /* foodTruckFinderz.xcdatamodel */;
+			path = foodTruckFinderz.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 182A522A16E3FBB500F4434B /* Project object */;
+}

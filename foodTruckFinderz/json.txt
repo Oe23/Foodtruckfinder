@@ -1,0 +1,72 @@
+[
+   {
+       "Title": "Roast Face Killa",
+       "Address": "350 W Mart Center",
+       "Latitude": "41.888034",
+       "Longitude": "-87.636764",
+       "FileName": "foodtruck1.jpeg"
+   },
+   {
+       "Title": "Method Manwhiches",
+       "Address": "757 N Orleans",
+       "Latitude": "41.894671",
+       "Longitude": "-87.788822",
+       "FileName": "foodtruck2.jpeg"
+   },
+   {
+       "Title": "Java the Hut",
+       "Address": "344 W Hubbard",
+       "Latitude": "41.887894",
+       "Longitude": "-87.636349",
+       "FileName": "foodtruck3.jpeg"
+   },
+   {
+       "Title": "Macho Tacos",
+       "Address": "410 N Dearborn",
+       "Latitude": "41.889799",
+       "Longitude": "-87.630093",
+       "FileName": "foodtruck4.jpeg"
+   },
+   {
+       "Title": "Da Brats",
+       "Address": "641 N Clark",
+       "Latitude": "41.8893755",
+       "Longitude": "-87.631014",
+       "FileName": "foodtruck5.jpeg"
+   },
+   {
+       "Title": "Guts, Glory, Ham",
+       "Address": "515 N State",
+       "Latitude": "41.891252",
+       "Longitude": "-87.627723",
+       "FileName": "foodtruck6.jpeg"
+   },
+   {
+       "Title": "Corn Beefin'",
+       "Address": "333 N Dearborn",
+       "Latitude": "41.888437",
+       "Longitude": "-87.628873",
+       "FileName": "foodtruck7.jpeg"
+   },
+   {
+       "Title": "Las Vegans",
+       "Address": "455 N Clark",
+       "Latitude": "41.890716",
+       "Longitude": "-87.631077",
+       "FileName": "foodtruck8.jpeg"
+   },
+   {
+       "Title": "Lil' Grain- Rice Bowls",
+       "Address": "222 E Ontario",
+       "Latitude": "41.893189",
+       "Longitude": "-87.635193",
+       "FileName": "foodtruck9.jpeg"
+   },
+   {
+       "Title": "Two Thangs",
+       "Address": "500 N Kingsbury",
+       "Latitude": "41.889406",
+       "Longitude": "-87.638381",
+       "FileName": "foodtruck10.jpeg"
+   }
+]
